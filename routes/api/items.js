@@ -4,8 +4,8 @@ const router = express.Router();
 //item model
 const Item = require('../../models/item.js');
 
-// @route Get api/items
-// @desc Get all items
+// @route GET api/items
+// @desc GET all items
 // @access Public
 
 router.get('/',(req,res) => {
